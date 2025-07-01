@@ -1,6 +1,6 @@
 # 🧠 NLP Project: Automated Review Analysis and Product Recommendations
 
-> Final project for Ironhack AI/ML Bootcamp by **Luis Guimarães**
+> A Project for Ironhack AI/ML Bootcamp by **Luis Guimarães**
 
 ---
 
@@ -20,9 +20,6 @@ This project automates the analysis of customer reviews for fashion products on 
 
 3. **Review Summarization**  
    Summarize reviews (positive and negative) and generate product recommendations using generative AI.
-
-4. **(Optional) Deployment**  
-   Provide a simple interface for users to interact with the models.
 
 ---
 
@@ -78,3 +75,65 @@ This project automates the analysis of customer reviews for fashion products on 
 - ✅ GPT-generated summaries helped extract actionable product insights
 
 #### 📈 Classification Accuracy
+
+- NEGATIVE: Precision 0.74, Recall 0.97
+- POSITIVE: Precision 0.99, Recall 0.94
+- Overall Accuracy: 94.5%
+
+#### 📦 Sample GPT Summary
+
+✅ Top Strengths:
+
+* Lightweight and durable, great for workouts and casual use
+* Waterproof and stylish design
+* Cheaper than competing brands like Adidas and Swatch
+
+⚠ Common Problems:
+
+* Inaccurate sizing (too small)
+* Poor quality materials
+* Misleading product photos
+* Late shipping, poor customer service
+
+❌ Worst Product: "House Slippers"
+💥 Why to Avoid:
+Lacks support and uses low-quality material in the sole, uncomfortable for regular use
+
+## 🖥️ Deployment (optional)
+
+You can run the project interactively using:
+
+pip install -r requirements.txt
+python NLP_Project_Luis_Guimaraes.ipynb
+
+> Optional: A Gradio/Streamlit app can be added for demo purposes
+
+---
+
+## 📁 Project Structure
+
+├── NLP_Project_Luis_Guimaraes.ipynb   # Main notebook
+├── requirements.txt                  # Required packages
+├── data/
+│   ├── reviews.json.gz
+│   └── metadata.json.gz
+└── README.md                         # This file
+
+---
+
+## 🧰 Tech Stack
+
+* Python 3.11
+* Polars
+* Hugging Face Transformers
+* Scikit-learn
+* SentenceTransformers
+* Matplotlib / Seaborn
+* OpenAI GPT-3.5 (via API)
+
+---
+
+## 👨‍💻 Author
+
+Luis Guimarães – [LinkedIn](https://www.linkedin.com/in/luis-guimaraes)
+
