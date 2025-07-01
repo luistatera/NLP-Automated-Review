@@ -135,5 +135,5 @@ python NLP_Project_Luis_Guimaraes.ipynb
 
 ## 👨‍💻 Author
 
-Luis Guimarães – [LinkedIn](https://www.linkedin.com/in/luis-guimaraes)
+Luis Guimarães – [LinkedIn](https://www.linkedin.com/in/luisguima)
 
